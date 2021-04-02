@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+.hero{
+      width: 100%;
+      height: 200vh;
+      background-image:url(../images/back.jpg) ;
+      background-size:cover;
+      background-position:center;
+      position: relative;
+      overflow: visible;
+
+}
+.logo{
+
+  width: 75px;
+  cursor: pointer;
+}
+.navbar{
+  width: 85%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button{
+  color:aqua;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  position: static;
+  outline: none;
+  cursor: pointer;
+}
+.contant{
+  color: #ffffff;
+  position: absolute;
+  text-size-adjust: auto;
+  top: 30%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+h1{
+  font-size: 80px;
+  margin: 10px 0 30px;
+  line-height: 80px;
+}
+.side-bar{
+  width: 50px;
+  height: 200vh;
+  background: linear-gradient(#00545d, #000729);
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+.menu{
+  display: block;
+  width: 25px;
+  margin: 40px auto 0;
+  cursor: pointer;
+  
+
+}
+.instagram{
+  display: block;
+  width: 25px;
+  margin: 40px auto 0;
+  cursor: pointer;
+  
+
+}
+.hackerrank{
+  display: block;
+  width: 25px;
+  margin: 40px auto 0;
+  cursor: pointer;
+  
+
+}
+.github{
+  display: block;
+  width: 25px;
+  margin: 40px auto 0;
+  cursor: pointer;
+  
+
+}
+.CodeChef{
+  display: block;
+  width: 25px;
+  margin: 40px auto 0;
+  cursor: pointer;
+}
